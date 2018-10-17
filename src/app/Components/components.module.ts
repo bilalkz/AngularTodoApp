@@ -1,0 +1,14 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { AddTodoComponent } from './add-todo/add-todo.component';
+
+@NgModule({
+  imports: [
+    CommonModule,
+    
+  ],
+
+  declarations: [AddTodoComponent],
+  exports:[AddTodoComponent] //adds the export array
+})
+export class ComponentsModule { }
